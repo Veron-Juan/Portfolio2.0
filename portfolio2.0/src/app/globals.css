@@ -1,0 +1,104 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  margin: 0 10px;
+  padding: 0;
+}
+* {
+  box-sizing: border-box;
+}
+.prueba{
+  background: linear-gradient(120deg, #8e54e9 30%, #e78e45);
+  
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+.btn-grad {
+  background-image: linear-gradient(to right, #16BFFD 0%, #CB3066  51%, #16BFFD  100%);
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  font-weight: bold;            
+  
+  border-radius: 10px;
+  display: block;
+}
+
+.btn-grad:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+.switch {
+  font-size: 15px;
+  position: relative;
+  display: inline-block;
+  width: 3.5em;
+  height: 2em;
+  /* position: absolute;
+  top: 20px;
+  right: 20px; */
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  --background: #27272a7b;
+  border: 1px solid #ffffff26;
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: var(--background);
+  transition: .5s;
+  border-radius: 30px;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 1.4em;
+  width: 1.4em;
+  border-radius: 50%;
+  left: 10%;
+  bottom: 13%;
+  box-shadow: inset 8px -4px 0px 0px #dacc00;
+  background: var(--background);
+  transition: .5s;
+}
+
+input:checked + .slider {
+  border: 1px solid #818df84d;
+  background-color: #818df85c;
+}
+
+input:checked + .slider:before {
+  transform: translateX(100%);
+  box-shadow: inset 15px -4px 0px 15px #fff000;
+}
