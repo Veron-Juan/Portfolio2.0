@@ -38,20 +38,20 @@ participating in the creation of new and challenging projects with a great
 working group.</p>
       <div className='mt-8 flex justify-between items-center'>
         <a href="/JuanVeron_CV.pdf" target="_blank" className='btn-grad   p-3 md:p-4 md:w-48   rounded-md hover:cursor-pointer'><p className='text-sm md:text-base'>Download CV</p></a>
-        <div className='flex items-center gap-2 cursor-pointer'>
+        <div className='flex items-center gap-2 cursor-pointer '>
           <a href='mailto:juanvp.dev@gmail.com' target='_blank'>
-          <Image src={gmail} alt="asd"  width={25}  className='md:w-[32px]'/>
+          <Image src={gmail} alt="asd"  width={25}  className='md:w-[38px] hover:opacity-[.7]'/>
           </a>
           <a href="https://www.linkedin.com/in/juanvp7/" target='_blank'>
-          <Image src={linkedin} alt="asd"  width={25} className='md:w-[32px]'/>
+          <Image src={linkedin} alt="asd"  width={25} className='md:w-[32px] hover:opacity-[.7]'/>
 
           </a>
           <a href="https://github.com/Veron-Juan" target='_blank'>
-          <Image src={github} alt="asd"  width={25} className='md:w-[32px]'/>
+          <Image src={github} alt="asd"  width={25} className='md:w-[32px] hover:opacity-[.7]'/>
 
           </a>
           <a href="https://twitter.com/Juuan_vp" target='_blank'>
-          <Image src={twitter}  alt="asd" width={25} className='md:w-[32px]'/>
+          <Image src={twitter}  alt="asd" width={25} className='md:w-[32px] hover:opacity-[.7]'/>
 
           </a>
 
