@@ -6,7 +6,7 @@ import ContainerEffect from '@/components/ContainerEffect'
 export default function Contact() {
   return (
     <ContainerEffect>
-        <a href='mailto:juanvp.dev@gmail.com'>
+        <a href="mailto:juanvp.dev@gmail.com">
       <h2 className=' flex w-max flex-col items-center pb-4 text-4xl font-bold leading-10 tracking-tighter  sm:pb-8 md:mx-0 md:text-6xl '>
         Contact me
         <span className='z-20 mt-4  inline-flex h-2 w-full animate-[rightGrow_3s_infinite_alternate] rounded-md bg-gradient-to-r from-blue-500 via-blue-700 to-fuchsia-500' />

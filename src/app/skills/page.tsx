@@ -14,8 +14,8 @@ export default function PageSkills() {
         <div className='flex flex-wrap items-center justify-center gap-6'>
             {skills.map((skill)=>{
                 return(
-                    <div className='duration-400 relative flex w-[160px] h-[160px] cursor-pointer flex-col items-center justify-center gap-4 bg-slate-300 rounded-xl border border-indigo-300/50 p-6 shadow-inner transition-all hover:-translate-y-2 hover:bg-indigo-300/50 dark:border-zinc-700/40 dark:shadow-zinc-700/40 dark:hover:bg-zinc-600/30 dark:hover:shadow-transparent ' >
-            <img width={80} height={80}  src={skill.img} alt="asddas" />
+                    <div key={skill.id} className='duration-400 relative flex w-[160px] h-[160px] cursor-pointer flex-col items-center justify-center gap-4 bg-slate-300 rounded-xl border border-indigo-300/50 p-6 shadow-inner transition-all hover:-translate-y-2 hover:bg-indigo-300/50 dark:border-zinc-700/40 dark:shadow-zinc-700/40 dark:hover:bg-zinc-600/30 dark:hover:shadow-transparent ' >
+            <Image width={80} height={80}  src={skill.img} alt="asddas" />
             
           </div>
                 )
