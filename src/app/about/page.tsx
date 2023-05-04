@@ -59,7 +59,7 @@ working group.</p>
       </div>
       <div className='mt-4 flex flex-col' >
         <div className='flex justify-center  gap-4'>
-        <div className='duration-400 relative flex justify-center w-[100px] sm:w-[124px] h-[110px]  md:h-[124px]  flex-col items-center gap-2 p-3 rounded-xl border border-indigo-300/50  shadow-inner transition-all hover:-translate-y-2 hover:bg-indigo-300/50 dark:border-zinc-700/40 dark:shadow-zinc-700/40 dark:hover:bg-zinc-600/30 dark:hover:shadow-transparent ' >
+        <div   className='duration-400 relative flex justify-center w-[100px] sm:w-[124px] h-[110px]  md:h-[124px]  flex-col items-center gap-2 p-3 rounded-xl border border-indigo-300/50  shadow-inner transition-all hover:-translate-y-2 hover:bg-indigo-300/50 dark:border-zinc-700/40 dark:shadow-zinc-700/40 dark:hover:bg-zinc-600/30 dark:hover:shadow-transparent ' >
             <Image  width={50} src={work} alt='projects' />
             <p className='font-bold text-[12px]'>+8 projects</p>
           </div>
