@@ -18,7 +18,7 @@ export interface Project {
 export const projects: Project[] = [
   {
     id: 1,
-    name: 'Lofi music (In progress...)',
+    name: 'Lofi music (BETA)',
     stack: [
       {
         name: 'React.js',
@@ -40,7 +40,7 @@ export const projects: Project[] = [
     description:
       'Personal project still under construction, in which a community of people can be created to share their lofi music playlists for studying or relaxing. You can find a wide variety of lofi music, share your favorite songs with other users and discover new artists and songs in the community.',
     img: '/lofimusic.png',
-    url: '#',
+    url: 'https://lofi-focus-six.vercel.app/',
     code: "#",
     progress: false,
     date: 'During 2022'
