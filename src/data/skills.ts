@@ -35,6 +35,11 @@ export interface Project {
       img: "/skills/react.svg"
     },
     {
+      id: 12,
+      name: "next",
+      img: "/next.svg"
+    },
+    {
       id: 6,
       name: 'E-Commerce Fullstack',
       img: "/skills/redux.svg"
