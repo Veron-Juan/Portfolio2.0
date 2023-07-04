@@ -40,7 +40,7 @@ export const projects: Project[] = [
     description:
       'Personal project still under construction, in which a community of people can be created to share their lofi music playlists for studying or relaxing. You can find a wide variety of lofi music, share your favorite songs with other users and discover new artists and songs in the community.',
     img: '/lofimusic.png',
-    url: 'https://lofi-focus-six.vercel.app/',
+    url: 'https://lofifocus.vercel.app/',
     code: "#",
     progress: false,
     date: 'During 2022'
